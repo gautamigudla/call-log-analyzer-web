@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call Log Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Question and Answer Screen -->
+    <div id="question-answer-screen">
+        <h2>Question and Answer</h2>
+        <div id="question">
+            <h3>Question:</h3>
+            <p id="question-text">What are our product design decisions?</p>
+        </div>
+        <div id="answers">
+            <h3>Answers:</h3>
+            <ul id="answer-list">
+                <!-- Placeholder for dynamically generated answers -->
+            </ul>
+        </div>
+        <!-- Time Navigation Feature -->
+        <div id="time-navigation">
+            <h3>Time Navigation:</h3>
+            <input type="date" id="date-selector">
+            <button id="prev-day-btn">Previous Day</button>
+            <button id="next-day-btn">Next Day</button>
+        </div>
+    </div>
+
+    <!-- Document Addition Screen -->
+    <div id="document-addition-screen">
+        <h2>Document Addition</h2>
+        <label for="document-url">Enter Document URL:</label>
+        <input type="text" id="document-url">
+        <label for="question">Enter Question:</label>
+        <input type="text" id="question-input">
+        <button id="add-document-btn">Add Document</button>
+        <div id="suggestions">
+            <h3>Suggestions:</h3>
+            <ul id="suggestions-list">
+                <!-- Placeholder for dynamically generated suggestions -->
+            </ul>
+        </div>
+        <button id="auto-approve-toggle">Auto-Approve Suggestions</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
