@@ -15,7 +15,7 @@ This web application processes and extracts information from a set of call logs 
 
 - Frontend: HTML, CSS, JavaScript
 - Backend: Python
-- Language Model (LLM): [Specify the LLM you are using, e.g., GPT-3]
+- Language Model (LLM): GPT-3
 - Frameworks: Frontend - React.js,Backend - Flask
 - Additional Tools: AWS (for hosting)
 
